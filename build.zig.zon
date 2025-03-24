@@ -1,0 +1,22 @@
+.{
+    .name = .ballpit,
+    .version = "0.0.0",
+    .fingerprint = 0xd8798121dc87e95d, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.14.0",
+    .dependencies = .{
+        .joltc_zig = .{
+            .url = "git+https://github.com/jrdurandt/joltc-zig.git#a81cd36f7103bb5ff63a3f6270043affa1857cbb",
+            .hash = "joltc_zig-0.0.0-Mq-cAfYiAAB9RFmqIKz0iZdEI9XJu82UPAZLASxl7NSd",
+        },
+        .raylib = .{
+            .url = "git+https://github.com/raysan5/raylib.git#f5c96302d5623950dccdca31f8dd66d6d633dbd1",
+            .hash = "raylib-5.5.0-whq8uFV0zQA9NXxhpYFZk_yHW6xzg5eKGmOtMJ2DOTdU",
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
