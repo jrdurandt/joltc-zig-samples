@@ -5,8 +5,8 @@
     .minimum_zig_version = "0.14.0",
     .dependencies = .{
         .joltc_zig = .{
-            .url = "git+https://github.com/jrdurandt/joltc-zig.git#a81cd36f7103bb5ff63a3f6270043affa1857cbb",
-            .hash = "joltc_zig-0.0.0-Mq-cAfYiAAB9RFmqIKz0iZdEI9XJu82UPAZLASxl7NSd",
+            .url = "git+https://github.com/jrdurandt/joltc-zig.git#16024ef127aec33de806537343c2647301e09b93",
+            .hash = "joltc_zig-0.1.2-Mq-cAVkmAAAim2kNA_nEtI2-ViLA7Uhbe44Papr7XDoP",
         },
         .raylib = .{
             .url = "git+https://github.com/raysan5/raylib.git#f5c96302d5623950dccdca31f8dd66d6d633dbd1",
